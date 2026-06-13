@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">जीपीएस उपस्थिती</string>
+
+    <string name="welcome">स्वागत आहे</string>
+
+    <string name="get_location">स्थान मिळवा</string>
+    <string name="mark_attendance">उपस्थिती नोंदवा</string>
+    <string name="view_attendance">उपस्थिती पहा</string>
+    <string name="more">अधिक</string>
+
+    <string name="attendance_status">उपस्थिती स्थिती</string>
+
+    <string name="login">लॉगिन</string>
+    <string name="register">नोंदणी</string>
+
+    <string name="email">ईमेल</string>
+    <string name="password">पासवर्ड</string>
+
+    <string name="student_name">विद्यार्थ्याचे नाव</string>
+    <string name="student_id">विद्यार्थी आयडी</string>
+
+    <string name="attendance_records">उपस्थिती नोंदी</string>
+</resources>

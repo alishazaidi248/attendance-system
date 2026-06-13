@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:layout_below="@id/btnLanguage"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/txtLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitude : --"
+        android:layout_below="@id/txtWelcome"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/txtLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitude : --"
+        android:layout_below="@id/txtLatitude"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btnLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_location"
+        android:layout_below="@id/txtLongitude"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/btnAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mark_attendance"
+        android:layout_below="@id/btnLocation"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnViewAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_attendance"
+        android:layout_below="@id/btnAttendance"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnMore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/more"
+        android:layout_below="@id/btnViewAttendance"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/attendance_status"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_below="@id/btnMore"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btnLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Language"
+        android:layout_below="@id/btnMore"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>

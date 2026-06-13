@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ஜிபிஎஸ் வருகைப் பதிவு</string>
+
+    <string name="welcome">வரவேற்கிறோம்</string>
+
+    <string name="get_location">இருப்பிடத்தை பெற</string>
+    <string name="mark_attendance">வருகையை பதிவு செய்</string>
+    <string name="view_attendance">வருகையை காண்</string>
+    <string name="more">மேலும்</string>
+
+    <string name="attendance_status">வருகை நிலை</string>
+
+    <string name="login">உள்நுழை</string>
+    <string name="register">பதிவு செய்</string>
+
+    <string name="email">மின்னஞ்சல்</string>
+    <string name="password">கடவுச்சொல்</string>
+
+    <string name="student_name">மாணவர் பெயர்</string>
+    <string name="student_id">மாணவர் ஐடி</string>
+
+    <string name="attendance_records">வருகைப் பதிவுகள்</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">GPS Attendance</string>
+
+    <string name="welcome">Welcome Student</string>
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string name="student_name">Full Name</string>
+    <string name="student_id">Student ID</string>
+
+    <string name="get_location">Get Current Location</string>
+    <string name="mark_attendance">Mark Attendance</string>
+    <string name="view_attendance">View Attendance</string>
+    <string name="attendance_status">Attendance Status : Not Marked</string>
+    <string name="attendance_records">Attendance Records</string>
+    <string name="more">More</string>
+
+</resources>
