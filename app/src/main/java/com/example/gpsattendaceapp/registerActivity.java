@@ -63,6 +63,7 @@ public class registerActivity extends AppCompatActivity {
 
                             String uid = mAuth.getCurrentUser().getUid();
 
+
                             db.collection("Students")
                                     .document(uid)
                                     .set(user);
